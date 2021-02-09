@@ -1,0 +1,158 @@
+
+ul li{
+    display: inline-block;
+	font-weight:700;
+	font-size:20px;
+	margin-left:20px;
+	bottom:30px;
+	padding-bottom:10px;
+	text-align:center;
+}
+ul{
+    margin-left: 10px;
+    padding-top: 10%;
+
+}
+
+.titulo{
+    font-family:"bungeshade";
+    text-align: center;
+    color: #b9c2ca;
+    font-size: 38px;
+    
+}
+
+
+.gruposuperior1{
+    background-color: #2980b9;
+    
+    }
+.gruposuperior2{
+        /* background-image:url('../../images/fondo-web.png'); */
+        
+        padding-top: 5%;
+        padding-bottom: 20%;
+        /* background-color: #2980b9; */
+        width: 100%;
+}        
+.col1{
+    
+     color:#2980b9;
+     width: 100%;
+}
+.col2{
+    
+    background-color: #2980b9;
+    padding: 20%;
+    font-size: 38px;
+    /* margin-top: 29%; */
+
+
+}
+
+.logo{
+    width: 30%;
+    margin-top: 5%;
+    /* padding-left: 10%; */
+    margin-left: 35%;
+}
+
+.navigation{
+    width: 90%;
+    /* max-width: 1000px; */
+    /* margin: 20px auto; */
+    background: #024959;
+    position:fixed;
+    z-index: 100;
+    margin: 0 6%;
+
+}
+
+ul>li{
+    float: left;
+    padding: 8px;
+}
+
+ul>li>a{
+    padding: 20px;
+    display:block;
+    
+}
+.nav-items{
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    padding: 3% 16%;
+    /* padding-left: 211px; */
+
+}
+.control-menu{
+    display:none;
+}
+
+ul.nav-items li:hover{
+    background: #2980b9;
+    left: 0px;
+}
+.menu_bar{
+    display: none;
+}
+ul >li>span{
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 800px) {
+   
+    .navigation{
+        width:100%;
+        height: 100%;
+        margin: 0;
+        position: relative;
+        display:block;
+        
+    }
+    
+    .nav-items{
+        display: inline-table;
+        margin: 0px;
+        padding: 0px;
+       
+    }
+    div.navigation ul li{
+        display:flex;
+        padding-left:5%; 
+        padding-right:5%;
+        float: none;
+        border-bottom: 1px solid rgba(255,255,255, .3);
+        padding: 20px;
+        margin: 0;
+    }
+   
+    .menu_bar{
+        display: block;
+        width: 100%;
+
+    }
+
+    .contenedor,.footer,.contenedorcards{
+        position: relative;
+    }
+
+    .menu_bar .btn-menu{
+        display: block;
+        padding: 20px;
+        background: #024059;
+        color: #fff;
+        font-family:none;
+        font-size:21px;
+        font-weight: bold;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        text-align: end;
+        padding-right: 55px;
+
+    }
+    
+    
+}   
