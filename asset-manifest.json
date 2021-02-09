@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portafolio/static/css/main.ed99b0ae.chunk.css",
+    "main.js": "/portafolio/static/js/main.6be9149e.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.6be9149e.chunk.js.map",
+    "runtime-main.js": "/portafolio/static/js/runtime-main.39896225.js",
+    "runtime-main.js.map": "/portafolio/static/js/runtime-main.39896225.js.map",
+    "static/js/2.76472cbc.chunk.js": "/portafolio/static/js/2.76472cbc.chunk.js",
+    "static/js/2.76472cbc.chunk.js.map": "/portafolio/static/js/2.76472cbc.chunk.js.map",
+    "index.html": "/portafolio/index.html",
+    "precache-manifest.99f366abfbc558ff9e0122d2bb74343e.js": "/portafolio/precache-manifest.99f366abfbc558ff9e0122d2bb74343e.js",
+    "service-worker.js": "/portafolio/service-worker.js",
+    "static/css/main.ed99b0ae.chunk.css.map": "/portafolio/static/css/main.ed99b0ae.chunk.css.map",
+    "static/js/2.76472cbc.chunk.js.LICENSE.txt": "/portafolio/static/js/2.76472cbc.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/portafolio/static/media/BungeeShade-Regular.21b54b38.ttf",
+    "static/media/flaticon.css": "/portafolio/static/media/Flaticon.ffb2fa39.woff",
+    "static/media/buscadorimagenes.jpg": "/portafolio/static/media/buscadorimagenes.16538589.jpg",
+    "static/media/organizesongs.png": "/portafolio/static/media/organizesongs.a9eaae73.png",
+    "static/media/rick.jpg": "/portafolio/static/media/rick.0f1a7d31.jpg",
+    "static/media/tipodecambio.jpg": "/portafolio/static/media/tipodecambio.0fdc5bce.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.39896225.js",
+    "static/js/2.76472cbc.chunk.js",
+    "static/css/main.ed99b0ae.chunk.css",
+    "static/js/main.6be9149e.chunk.js"
+  ]
+}
