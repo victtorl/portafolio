@@ -1,6 +1,9 @@
 *{
+    
     margin: 0;
     padding: 0;
+    
+    
 }
 
 @font-face{
@@ -8,8 +11,8 @@
     src: url('./fonts/BungeeShade-Regular.ttf');
 }
 html, body{
-    /* background-image:url('./images/fondo-web.png'); */
 
+    
     
 }
 
@@ -32,6 +35,7 @@ header{
 .contenedorcards{
 
      background-color:rebeccapurple;
+     
 
 }
 
@@ -55,9 +59,12 @@ header{
 
 
 .contenedor{
+    
     height: 100%;
     width: 100%;  
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+
 }
 
 

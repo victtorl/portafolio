@@ -1,0 +1,50 @@
+.cardproy{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.cardproy_img{
+    display: block;
+    height: 100px;
+}
+
+
+.cardproy_button{
+    display: block;
+    border: none;
+}
+.cardproy_button:hover{
+    background: slateblue;
+}
+
+.cardproy_title{
+    text-align: center;
+    line-height: 0.9;
+    height: 40px;
+    margin-top: 10px;
+    
+}
+.cardproy_description{
+    text-align: justify;
+    height: 8rem;
+    word-wrap: break-word;
+    margin-bottom: -5px;
+    overflow: auto;
+}
+.cardproy_description:hover{
+    color: blueviolet;
+}
+
+@media (max-width:900px){
+
+    .cardproy_description{
+    text-align: justify;
+    margin-bottom: 10px;
+    overflow: auto;
+    width: 200px;
+    }
+    
+  }
