@@ -45,7 +45,7 @@ class Barra extends  Component{
       if(this.dato.cont === 1){
         this.setState((state,props)=>({styl:state.styl={display:'none'}}),()=>{this.dato.cont=0})
 
-       console.log('amigo')
+       console.log('amig o')
       }else{
         this.setState((state,props)=>({styl:state.styl={display:'block'}}),()=>{this.dato.cont=1})
         
