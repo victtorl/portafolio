@@ -76,7 +76,7 @@ class Barra extends  Component{
    }
    gocontenedor=()=>{
     
-    scroller.scrollTo('contenedor',{
+    scroller.scrollTo('contenedorcards',{
       duration: 1000,
       delay: 100,
       smooth: true,
@@ -99,7 +99,7 @@ class Barra extends  Component{
                 
               <ul className="nav-items">
                 <li onClick={this.goarriba}> <span className="flaticon-internet"></span> INICIO</li>
-                <li onClick={this.gocontenedor}><span className="flaticon-portfolio"></span> PORTAFOLIO </li>
+                <li onClick={this.gocontenedor}><span className="flaticon-portfolio"></span> PROYECTOS </li>
                 <li><span className="flaticon-blog"></span> BLOG</li>
                 <li onClick={this.goabajo}><span className="flaticon-contact"></span> CONTACT</li>   
               </ul>

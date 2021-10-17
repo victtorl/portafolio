@@ -40,6 +40,24 @@ class App extends Component{
                       <Col className="col2"    >
 
                         <h3  className="titulo">Hello World! || I'm Victor</h3>
+                        <p className="textPresentation">
+                          Me gusta solucionar problemas mediante el uso de la tecnologia
+                          tengo un perfil  Front-end sin embargo he usado Lenguajes como Java,
+                          C++, PHP con su framework Laravel y el uso de Bases de datos como Mysql 
+                          SQL server y Mongo-DB, manejo el idioma ingles de forma leida para solucionar 
+                          los errores de progrmacion ;)
+
+                        </p>
+                          <hr></hr>
+                          <p className="textPresentation">Las tecnologias que practico actualmente son:
+                            <br></br>
+                            React - 
+                            NodeJS - 
+                            Typescript - 
+                            VueJS -
+                            Bootstrap -
+                            Sass
+                          </p>
                         
                       </Col>
                       
@@ -48,27 +66,27 @@ class App extends Component{
               <Row  className="contenedorcards" >
               
                        <Col  className="col-sm-6 col-md-6" > 
-                          <Cardp  imgsrc={img5} title={'Organizador de canciones'} 
-                          description={'Busque la cancion de su preferencia +Enter y organize su musica segun las 3 categorias disponibles :)'} 
+                          <Cardp  imgsrc={img5} title={'Organizador de canciones en React'} 
+                          description={'Un buscador de canciones hecho en React que maneja estados para poder acomodar las canciones segun su categoria Bilboards, Disco de oro o Bailables'} 
                           href={'https://victorlaragurmendi.github.io/searchsongs/'}/>
                         </Col>
                          
                         <Col className="col-sm-6 col-md-6"  > 
                         <Cardp  imgsrc={img2} title={'Buscador de Imagenes en React'}
-                         description={'Una lista de imagenes hecha la cual recibe un nombre y devuelve las coincidencias del resultado de la api'} 
+                         description={'Una lista de imagenes hecha en React la cual recibe un nombre y devuelve las coincidencias del resultado de la API'} 
                           href={'https://listadetareas.webcindario.com/'}/>
                         </Col>
             
                         <Col  className="col-sm-6 col-md-6" > 
                         <Cardp  imgsrc={img3} title={'Buscador de Personajes Vue'}
-                        description={'Un buscador el cual recibe un nombre  de la serie de personajes Rick&Morty y devuelve las coincidencias del resultado de la API'} 
+                        description={'Un buscador de Personajes que consume la API de personajes de la serie Rick y Morty '} 
                         href={'https://rickvictorlara.webcindario.com/'}/>
                          
                         </Col>
 
                         <Col  className="col-sm-6 col-md-6"   > 
-                          <Cardp  imgsrc={img4} title={'Tipo de cambio en PHP'}
-                          description={'Una aplicacion que permite determinar el tipo de cambio en el mes y el año,se usa una api que la SUNAT dispone para nosotros '}
+                          <Cardp  imgsrc={img4} title={'Cambio Soles a dolares y viceversa en PHP'}
+                          description={'Una aplicacion que usa PHP para consumir la API  que permite determinar el tipo de cambio en el mes y el año '}
                           href={'https://calculodos.webcindario.com/'}/>
                         </Col>
 
