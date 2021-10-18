@@ -47,7 +47,7 @@ const Footer = () => {
 					<div className="contact-info">
 								
 								<ul>
-									<li className="letritas">Mas informacion</li>
+									<li className="letritas">Mas  informacion</li>
 									<li className="letritas"><i className ="email">Email:&nbsp;&nbsp;</i>10laragurmendi@gmail.com</li>
 									<li className="letritas">Lima, Peru  2021 </li>
 								</ul>
