@@ -59,7 +59,7 @@ const Footer = () => {
 							<Form>
 								
 							<Form.Group controlId="formBasicPassword">
-								<Form.Control className="textArea" onChange={handleOnChange}  as="textarea" rows="3"  name="textArea" placeholder="Escriba aqui.." />
+								<Form.Control className="textArea" onChange={handleOnChange}  as="textarea" rows="3"  name="textArea" placeholder="Enviar mensaje via WhatsApp..." />
 								
 							</Form.Group>
 								<Button variant="light" type="submit"  onClick={sendMessage}>
